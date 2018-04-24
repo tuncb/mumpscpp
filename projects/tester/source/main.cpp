@@ -1,12 +1,7 @@
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 
-#define MUMPSCPP_LIB_MSMPI
-#define MUMPSCPP_LIB_MKL_THREAD
-
-
-#include "catch.h"
+#include "catch.hpp"
 #include <mumpscpp/mumpscpp.h>
-#include <mumpscpp/mumpsLibraries.h>
 #include <boost/numeric/ublas/matrix_sparse.hpp>
 #include <Eigen\core>
 #include <shiva\Environment.h>
